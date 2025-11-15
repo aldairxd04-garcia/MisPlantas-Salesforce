@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Cases</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>cases post sale admin test</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MEX_SERV_Admin</label>
+</PermissionSet>

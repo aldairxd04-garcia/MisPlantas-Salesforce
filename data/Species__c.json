@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Species__c",
+                "referenceId": "Species__cRef1"
+            },
+            "CreatedDate": "2025-10-28T01:49:41.000+0000",
+            "Description__c": "Aloe Vera, a plant with a lot of healty properties",
+            "Ideal_max_temperature__c": 36,
+            "Image_URL__c": "https://www.shutterstock.com/image-vector/watercolor-vector-aloe-vera-plant-600nw-2435193153.jpg",
+            "Image__c": "<img src=\"https://www.shutterstock.com/image-vector/watercolor-vector-aloe-vera-plant-600nw-2435193153.jpg\" alt=\"Aloe Vera\" border=\"0\"/>",
+            "Location__c": "Outdoors",
+            "Name": "Aloe Vera",
+            "Pulverization__c": true,
+            "SystemModstamp": "2025-10-28T01:51:43.000+0000",
+            "Type__c": "Edible"
+        }
+    ]
+}

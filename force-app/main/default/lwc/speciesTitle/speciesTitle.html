@@ -1,0 +1,39 @@
+<template>
+    <template if:true={specie}>
+        <lightning-card variant="Narrow" icon-name="custom:custom5">
+            
+            <h3 slot="title" class="slds-text-heading_small slds-truncate" title={specie.Name}>
+                {specie.Name}
+            </h3>
+
+            <lightning-button-icon icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+            
+            <div class="slds-var-p-horizontal_small slds-var-p-bottom_small">
+                
+                <div class="slds-align_absolute-center slds-var-m-bottom_small" style="height: 200px; overflow: hidden; border-radius: 4px;">
+                    <img src={specie.Image_URL__c} 
+                         alt={specie.Name}
+                         style="height: 100%; width: 100%; object-fit: cover;" 
+                    />
+                    </div>
+
+                <div class="slds-grid slds-grid_vertical slds-gutters_small">
+                    
+                    <div class="slds-col">
+                        <p class="slds-text-body_regular slds-line-clamp_3" title={specie.Description__c}>
+                            {specie.Description__c}
+                        </p>
+                    </div>
+
+                    <div class="slds-col slds-var-m-top_small">
+                        <span class="slds-badge slds-theme_info">
+                            <lightning-icon icon-name="utility:checkin" size="xx-small" class="slds-var-m-right_xx-small slds-current-color"></lightning-icon>
+                            {specie.Location__c}
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </lightning-card>
+    </template>
+</template>
